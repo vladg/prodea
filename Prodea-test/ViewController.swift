@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, DataModelDelegate {
 	
 	@IBOutlet var tableView: UITableView!;
 	
@@ -18,7 +18,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		model = DataModel();
+		model = DataModel(delegate: self);
 		model.refresh();
 	}
 
@@ -41,6 +41,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 		cell.textLabel?.text = model.getTitle(indexPath.row);
 		return cell;
 		
+	}
+
+	//
+	// DataModelDelegate
+	//
+	func onDataChanged() {
+		self.tableView.reloadData();
 	}
 }
 

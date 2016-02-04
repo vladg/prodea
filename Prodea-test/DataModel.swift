@@ -10,14 +10,19 @@ import Foundation
 
 class DataModel {
 	
-	private var data: Array<String>?;
+	private var _data: Array<String>?;
+	private var _delegate: DataModelDelegate?;
+	
+	init(delegate: DataModelDelegate?) {
+		_delegate = delegate;
+	}
 	
 	func count() -> Int {
-		return 1;
+		return _data?.count ?? 0;
 	}
 	
 	func getTitle(index: Int) -> String {
-		return "title";
+		return _data?[index] ?? "";
 	}
 	
 	func refresh() {
@@ -39,8 +44,11 @@ class DataModel {
 	}
 	
 	func onDataReceived(dataReceived: Array<String>) {
-		self.data = dataReceived;
-		print("%@", self.data);
+		self._data = dataReceived;
+		self._delegate?.onDataChanged();
 	}
 }
 
+protocol DataModelDelegate {
+	func onDataChanged();
+}
