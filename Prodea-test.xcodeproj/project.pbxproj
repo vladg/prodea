@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F512544B1C63CE270097C9CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F512544A1C63CE270097C9CB /* AppDelegate.swift */; };
+		F512544D1C63CE270097C9CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F512544C1C63CE270097C9CB /* ViewController.swift */; };
+		F51254501C63CE270097C9CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F512544E1C63CE270097C9CB /* Main.storyboard */; };
+		F51254521C63CE270097C9CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51254511C63CE270097C9CB /* Assets.xcassets */; };
+		F51254551C63CE270097C9CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51254531C63CE270097C9CB /* LaunchScreen.storyboard */; };
+		F51254601C63CE270097C9CB /* Prodea_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F512545F1C63CE270097C9CB /* Prodea_testTests.swift */; };
+		F512546B1C63D0BA0097C9CB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F512546A1C63D0BA0097C9CB /* DataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F512545C1C63CE270097C9CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F512543F1C63CE270097C9CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F51254461C63CE270097C9CB;
+			remoteInfo = "Prodea-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F51254471C63CE270097C9CB /* Prodea-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prodea-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F512544A1C63CE270097C9CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F512544C1C63CE270097C9CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F512544F1C63CE270097C9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F51254511C63CE270097C9CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F51254541C63CE270097C9CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F51254561C63CE270097C9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F512545B1C63CE270097C9CB /* Prodea-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prodea-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F512545F1C63CE270097C9CB /* Prodea_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prodea_testTests.swift; sourceTree = "<group>"; };
+		F51254611C63CE270097C9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F512546A1C63D0BA0097C9CB /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F51254441C63CE270097C9CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51254581C63CE270097C9CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F512543E1C63CE270097C9CB = {
+			isa = PBXGroup;
+			children = (
+				F51254491C63CE270097C9CB /* Prodea-test */,
+				F512545E1C63CE270097C9CB /* Prodea-testTests */,
+				F51254481C63CE270097C9CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F51254481C63CE270097C9CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F51254471C63CE270097C9CB /* Prodea-test.app */,
+				F512545B1C63CE270097C9CB /* Prodea-testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F51254491C63CE270097C9CB /* Prodea-test */ = {
+			isa = PBXGroup;
+			children = (
+				F512544A1C63CE270097C9CB /* AppDelegate.swift */,
+				F512544C1C63CE270097C9CB /* ViewController.swift */,
+				F512546A1C63D0BA0097C9CB /* DataModel.swift */,
+				F512544E1C63CE270097C9CB /* Main.storyboard */,
+				F51254511C63CE270097C9CB /* Assets.xcassets */,
+				F51254531C63CE270097C9CB /* LaunchScreen.storyboard */,
+				F51254561C63CE270097C9CB /* Info.plist */,
+			);
+			path = "Prodea-test";
+			sourceTree = "<group>";
+		};
+		F512545E1C63CE270097C9CB /* Prodea-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				F512545F1C63CE270097C9CB /* Prodea_testTests.swift */,
+				F51254611C63CE270097C9CB /* Info.plist */,
+			);
+			path = "Prodea-testTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F51254461C63CE270097C9CB /* Prodea-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51254641C63CE270097C9CB /* Build configuration list for PBXNativeTarget "Prodea-test" */;
+			buildPhases = (
+				F51254431C63CE270097C9CB /* Sources */,
+				F51254441C63CE270097C9CB /* Frameworks */,
+				F51254451C63CE270097C9CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prodea-test";
+			productName = "Prodea-test";
+			productReference = F51254471C63CE270097C9CB /* Prodea-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F512545A1C63CE270097C9CB /* Prodea-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51254671C63CE270097C9CB /* Build configuration list for PBXNativeTarget "Prodea-testTests" */;
+			buildPhases = (
+				F51254571C63CE270097C9CB /* Sources */,
+				F51254581C63CE270097C9CB /* Frameworks */,
+				F51254591C63CE270097C9CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F512545D1C63CE270097C9CB /* PBXTargetDependency */,
+			);
+			name = "Prodea-testTests";
+			productName = "Prodea-testTests";
+			productReference = F512545B1C63CE270097C9CB /* Prodea-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F512543F1C63CE270097C9CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Vladislav Glabai";
+				TargetAttributes = {
+					F51254461C63CE270097C9CB = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F512545A1C63CE270097C9CB = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F51254461C63CE270097C9CB;
+					};
+				};
+			};
+			buildConfigurationList = F51254421C63CE270097C9CB /* Build configuration list for PBXProject "Prodea-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F512543E1C63CE270097C9CB;
+			productRefGroup = F51254481C63CE270097C9CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F51254461C63CE270097C9CB /* Prodea-test */,
+				F512545A1C63CE270097C9CB /* Prodea-testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F51254451C63CE270097C9CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51254551C63CE270097C9CB /* LaunchScreen.storyboard in Resources */,
+				F51254521C63CE270097C9CB /* Assets.xcassets in Resources */,
+				F51254501C63CE270097C9CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51254591C63CE270097C9CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F51254431C63CE270097C9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F512544D1C63CE270097C9CB /* ViewController.swift in Sources */,
+				F512544B1C63CE270097C9CB /* AppDelegate.swift in Sources */,
+				F512546B1C63D0BA0097C9CB /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51254571C63CE270097C9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51254601C63CE270097C9CB /* Prodea_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F512545D1C63CE270097C9CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F51254461C63CE270097C9CB /* Prodea-test */;
+			targetProxy = F512545C1C63CE270097C9CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F512544E1C63CE270097C9CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F512544F1C63CE270097C9CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F51254531C63CE270097C9CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51254541C63CE270097C9CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F51254621C63CE270097C9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F51254631C63CE270097C9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F51254651C63CE270097C9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Prodea-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glabai.Prodea-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F51254661C63CE270097C9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Prodea-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glabai.Prodea-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F51254681C63CE270097C9CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Prodea-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glabai.Prodea-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prodea-test.app/Prodea-test";
+			};
+			name = Debug;
+		};
+		F51254691C63CE270097C9CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Prodea-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.glabai.Prodea-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prodea-test.app/Prodea-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F51254421C63CE270097C9CB /* Build configuration list for PBXProject "Prodea-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51254621C63CE270097C9CB /* Debug */,
+				F51254631C63CE270097C9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51254641C63CE270097C9CB /* Build configuration list for PBXNativeTarget "Prodea-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51254651C63CE270097C9CB /* Debug */,
+				F51254661C63CE270097C9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F51254671C63CE270097C9CB /* Build configuration list for PBXNativeTarget "Prodea-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51254681C63CE270097C9CB /* Debug */,
+				F51254691C63CE270097C9CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F512543F1C63CE270097C9CB /* Project object */;
+}
