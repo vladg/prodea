@@ -28,6 +28,7 @@ class DataModel {
 	func refresh() {
 		
 		dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
+			// following code runs on a worker thread and does not block UI
 			let url = NSURL(string: "http://jsonplaceholder.typicode.com/photos/")!;
 			let data = NSData(contentsOfURL: url)!;
 			let response = try! NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions());
@@ -38,6 +39,7 @@ class DataModel {
 				parsedData.append(title);
 			}
 			dispatch_async(dispatch_get_main_queue()) {
+				// this callback happens on the main thread and can update UI
 				self.onDataReceived(parsedData);
 			}
 		};
